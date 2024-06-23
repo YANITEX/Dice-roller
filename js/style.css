@@ -1,0 +1,44 @@
+body {
+    background-color : rgba(128, 128, 128, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height : 100vh;
+}
+.roll-number{
+    font-weight: 600;
+    font-size: xx-large;
+    
+}
+#roll-number{
+    text-align: center;width: 200px;
+}
+button {
+    background-color: rgb(83, 173, 253);
+    font-size: larger;
+    font-weight: bold; 
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 7%;
+}
+button:hover {
+    background-color: rgb(42, 148, 242);
+}
+button:active{
+    background-color: rgb(3, 129, 240);
+
+}
+#resultphotos{
+    width: 200 px;
+    
+}
+#photos{
+    margin: 0%;
+    width: 200px;
+}
+#result{
+    font-size: xx-large;
+    font-weight: 900;
+
+}
